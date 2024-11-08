@@ -99,9 +99,9 @@ const Footer = () => {
       <Content>
         <ContactInfo>
           <h3>Contact Us</h3>
-          <ContactItem>📞 +1 (234) 567-890</ContactItem>
-          <ContactItem>📧 contact@deluxefarms.com</ContactItem>
-          <ContactItem>📍 123 Vineyard Lane, Napa Valley, CA</ContactItem>
+          <ContactItem>📞 +999999999</ContactItem>
+          <ContactItem>📧 contact@deluxefarms.in</ContactItem>
+          <ContactItem>📍 123 Address TEJAS EDITING...</ContactItem>
         </ContactInfo>
         <ContactInfo>
           <h3>Follow Us</h3>
