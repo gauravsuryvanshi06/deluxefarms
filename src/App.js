@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.js
+import React from 'react';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import WhyChoose from './components/WhyChoose';
+import FeaturedProducts from './components/FeaturedProducts';
+import AboutProcess from './components/AboutProcess';
+import Testimonials from './components/Testimonials';
+import Sustainability from './components/Sustainability';
+import CallToAction from './components/CallToAction';
+import Footer from './components/Footer';
+import { Element } from 'react-scroll';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <Element name="hero">
+        <Hero />
+      </Element>
+      <Element name="why-choose">
+        <WhyChoose />
+      </Element>
+      <Element name="featured-products">
+        <FeaturedProducts />
+      </Element>
+      <Element name="about-process">
+        <AboutProcess />
+      </Element>
+      <Element name="testimonials">
+        <Testimonials />
+      </Element>
+      <Element name="sustainability">
+        <Sustainability />
+      </Element>
+      <Element name="call-to-action">
+        <CallToAction />
+      </Element>
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
