@@ -1,15 +1,15 @@
 // src/App.js
 import React from 'react';
+import { Element } from 'react-scroll';
+import AboutProcess from './components/AboutProcess';
+import CallToAction from './components/CallToAction';
+import FeaturedProducts from './components/FeaturedProducts';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import WhyChoose from './components/WhyChoose';
-import FeaturedProducts from './components/FeaturedProducts';
-import AboutProcess from './components/AboutProcess';
-import Testimonials from './components/Testimonials';
 import Sustainability from './components/Sustainability';
-import CallToAction from './components/CallToAction';
-import Footer from './components/Footer';
-import { Element } from 'react-scroll';
+import Testimonials from './components/Testimonials';
+import WhyChoose from './components/WhyChoose';
 
 const App = () => {
   return (
@@ -40,5 +40,10 @@ const App = () => {
     </div>
   );
 };
+ 
+
+
+
+
 
 export default App;
