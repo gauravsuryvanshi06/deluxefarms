@@ -8,6 +8,7 @@ import AboutProcess from './components/AboutProcess';
 import Testimonials from './components/Testimonials';
 import Sustainability from './components/Sustainability';
 import CallToAction from './components/CallToAction';
+import GetInTouch from './components/GetInTouch'; // Added this import
 import Footer from './components/Footer';
 import { Element } from 'react-scroll';
 
@@ -35,6 +36,9 @@ const App = () => {
       </Element>
       <Element name="call-to-action">
         <CallToAction />
+      </Element>
+      <Element name="contact"> {/* Added this section */}
+        <GetInTouch />
       </Element>
       <Footer />
     </div>
